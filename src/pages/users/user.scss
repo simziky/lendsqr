@@ -1,0 +1,61 @@
+.user-home {
+    //display: flex;
+    //width: 100%;
+    //height: 100vh;
+    //overflow-y: scroll;
+   // align-items: center;
+    //justify-content: center;
+    color: red;
+    padding: 60px 60px 0px 60px;
+    
+   
+    h4 {
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        color: #213F7D;
+        
+    }
+
+    .cards-main {
+        width: 100%;
+        height: 160px;
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+
+        .card-detail {
+            width: 240px;
+            height: 100%;
+            padding: 20px 30px 30px 30px;
+            background: #FFFFFF;
+            border: 1px solid rgba(33, 63, 125, 0.06);
+            box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+            border-radius: 4px;
+            .card-title {
+                margin-top: 14px;
+                font-family: 'Work Sans';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 16px;
+                text-transform: uppercase;
+                color: #545F7D;
+            }
+
+            h4 {
+                margin-top: 12px;
+                font-family: 'Work Sans';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 28px;
+                text-transform: uppercase;
+                color: #213F7D;
+
+            }
+        }
+    }
+}
